@@ -1,0 +1,8 @@
+Set ITEM:= LA[K]
+Repeat for J = K to N-1
+  [Move J+1st element upward.]
+  Set LA[J]:= LA[J+1]
+  [End of Loop]
+[Reset the numver N of element in LA]
+Set N:=N-1.
+Exit.
