@@ -1,0 +1,9 @@
+[Initialize counter] Set J:=N
+Repeat Steps 3 and 4 while J>=K
+[Move Jth element downward]
+  Set LA[J+1]=LA[J]
+[Decrease counter] Set J:=J+1
+  [End of Step 2 Loop]
+[Insert element] Set LA[K]:=ITEM
+[RESET N] Set N:=N+1
+Exit
