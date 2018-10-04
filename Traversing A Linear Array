@@ -1,0 +1,6 @@
+[Intialize counter] Set K:= LB.
+Repeat Steps 3 and 4 while K<=UB.
+    [Visit element] Apply PROCESS to LA[K].
+    [Increase counter] Set K:=K+1.
+    [End fo Step 2 Loop]
+Exit.
